@@ -31,14 +31,24 @@
 </p>
 
 
-## Install
-
-<!-- TO-DO -->
-
-
 ## Usage
 
-<!-- TO-DO -->
+```yml
+name: "Stale"
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tjrgg/action-stale@master
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-label: "stale"
+```
 
 
 ## Author
