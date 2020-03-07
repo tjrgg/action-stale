@@ -16,15 +16,11 @@
 	<a href="https://github.com/tjrgg/action-stale/subscription">
 		<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/tjrgg/action-stale?label=Watch&style=social" />
 	</a>
-</p>
-
-<p align="center">
+	<br />
 	<img alt="Issues" src="https://img.shields.io/github/issues/tjrgg/action-stale?cacheSeconds=86400" />
 	<img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/tjrgg/action-stale?cacheSeconds=86400" />
 	<img alt="Size" src="https://img.shields.io/github/repo-size/tjrgg/action-stale?cacheSeconds=86400&label=size" />
-</p>
-
-<p align="center">
+	<br />
 	<a href="https://twitter.com/tjrgg">
 		<img alt="Twitter" src="https://img.shields.io/twitter/follow/tjrgg?style=social" />
 	</a>
@@ -62,3 +58,5 @@ jobs:
 ## License
 
 Copyright © 2020 Tyler Richards. All rights reserved.
+
+This project is released under the [Apache License, version 2.0](LICENSE.md).

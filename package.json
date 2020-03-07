@@ -2,7 +2,7 @@
 	"name": "action-stale",
 	"version": "0.1.0",
 	"description": "An action that manages stale issues and pull requests",
-	"license": "UNLICENSED",
+	"license": "Apache-2.0",
 	"author": {
 		"name": "Tyler Richards",
 		"email": "hello@tjrgg.xyz"
@@ -15,7 +15,6 @@
 		"yarn": ">=1.22.0"
 	},
 	"main": "src/index.js",
-	"private": true,
 	"scripts": {
 		"build": "ncc build src/index.js -o dist",
 		"lint": "xo",
